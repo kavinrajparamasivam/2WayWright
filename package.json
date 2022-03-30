@@ -1,0 +1,29 @@
+{
+  "name": "2waywright",
+  "version": "1.0.0",
+  "description": "Civil industory website in MERN development",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev" : "SET NODE_ENV=DEV& nodemon backend/server",
+    "prod" : "SET NODE_ENV=PROD& nodemon backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kavinrajparamasivam/2WayWright.git"
+  },
+  "author": "Kavinraj P",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kavinrajparamasivam/2WayWright/issues"
+  },
+  "homepage": "https://github.com/kavinrajparamasivam/2WayWright#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
